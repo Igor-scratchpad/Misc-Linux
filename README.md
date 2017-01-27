@@ -7,5 +7,7 @@ Those things I keep on forgetting.
   
  * reload udev rules without restarting:
  
-       sudo udevadm control --reload 
-       sudo udevadm trigger --action=add
+   `sudo udevadm control --reload`
+   
+   
+   `sudo udevadm trigger --action=add`
