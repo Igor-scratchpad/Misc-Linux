@@ -3,7 +3,7 @@ Those things I keep on forgetting.
 
  * reload user settings without logging out (works only in a shell and its children):
  
-  `exec su -l $USER`
+   `exec su -l $USER`
   
  * reload udev rules without restarting:
  
@@ -13,6 +13,7 @@ Those things I keep on forgetting.
    `sudo udevadm trigger --action=add`
 
  * rsync mirroring
+
    `rsync -chavzP --status user@machine:/remote/dir /local/dest`
 
  * Autotools
