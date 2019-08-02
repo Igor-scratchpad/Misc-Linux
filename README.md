@@ -12,6 +12,9 @@ Those things I keep on forgetting.
    
    `sudo udevadm trigger --action=add`
 
+ * rsync mirroring
+   `rsync -chavzP --status user@machine:/remote/dir /local/dest`
+
  * Autotools
    1. create .c file
    2. create Makefile.in file
